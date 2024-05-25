@@ -7,7 +7,7 @@
 
 ### 구조
 
-<img src="../resources/level3-classes.png" width="60%" height="60%">
+<img src="../resources/level3-classes.png" width="60%">
 
 ### `Discountable` 인터페이스
 
@@ -21,4 +21,4 @@
 
 **이제 아래의 출력 예제를 보고 `PaymentSystem3`의 `main` 메서드를 완성하세요!**
 
-<img src="../resources/level3-result.png" width="60%" height="60%">
+<img src="../resources/level3-result.png" width="60%">
