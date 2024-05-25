@@ -5,7 +5,7 @@
 
 ### 구조
 
-![level1-classes.png](../resources/level1-classes.png)
+<img src="../resources/level1-classes.png" width="60%" height="60%">
 
 ### 결제 처리 클래스들 (`CreditCard`, `KakaoPay`, `NaverPay`)
 
@@ -24,4 +24,4 @@
 
 **이제 아래의 출력 예제를 보고 `PaymentSystem1`의 `main` 메서드를 완성하세요!**
 
-![level1-result.png](../resources/level1-result.png)
+<img src="../resources/level1-result.png" width="60%" height="60%">

@@ -8,7 +8,7 @@ LEVEL1에서 각 결제 처리 클래스들에 많은 코드 중복이 존재할
 
 ### 구조
 
-![level2-classes.png](../resources/level2-classes.png)
+<img src="../resources/level2-classes.png" width="60%" height="60%">
 
 ### `Payment` 추상 클래스
 
@@ -28,4 +28,4 @@ LEVEL1에서 각 결제 처리 클래스들에 많은 코드 중복이 존재할
 
 **이제 아래의 출력 예제를 보고 `PaymentSystem2`의 `main` 메서드를 완성하세요!**
 
-![level1-result.png](../resources/level1-result.png)
+<img src="../resources/level3-result.png" width="60%" height="60%">
