@@ -1,12 +1,12 @@
 ## 간단한 결제 시스템 개발하기 - LEVEL 1
 
-`CreditCardProcessor1`, `KakaoPayProcessor1`, `NaverPayProcessor1`는 모두 구현되어 있습니다.  
+`CreditCard`, `KakaoPay`, `NaverPay`는 모두 구현되어 있습니다.  
 각 클래스의 멤버 변수(필드)와 메서드를 살펴보고 어떤 기능이 있는지 확인해 보세요. **(많은 코드가 중복된다는 것도 확인해 보세요!)**
 
 ### 구조
 ![level1-classes.png](../resources/level1-classes.png)
 
-### `xxxProcessor1` 클래스들
+### 결제 처리 클래스들 (`CreditCard`, `KakaoPay`, `NaverPay`)
 
 #### 멤버 변수
 

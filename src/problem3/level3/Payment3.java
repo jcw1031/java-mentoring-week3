@@ -1,4 +1,4 @@
-package problem3.level2;
+package problem3.level3;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
@@ -6,13 +6,13 @@ import java.time.format.DateTimeFormatter;
 /**
  * 결제 처리 추상 클래스
  */
-public abstract class PaymentProcessor2 {
+public abstract class Payment3 {
 
     private String paymentDate;
     private String paymentMethod;
     private int paymentAmount;
 
-    protected PaymentProcessor2(String paymentMethod) {
+    protected Payment3(String paymentMethod) {
         this.paymentMethod = paymentMethod;
     }
 

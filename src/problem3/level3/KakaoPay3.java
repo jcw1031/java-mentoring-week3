@@ -1,8 +1,8 @@
 package problem3.level3;
 
-public class KakaoPayProcessor3 extends PaymentProcessor3 implements Discountable {
+public class KakaoPay3 extends Payment3 implements Discountable {
 
-    public KakaoPayProcessor3() {
+    public KakaoPay3() {
         super("카카오페이");
     }
 

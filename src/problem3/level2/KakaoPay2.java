@@ -1,8 +1,8 @@
 package problem3.level2;
 
-public class KakaoPayProcessor2 extends PaymentProcessor2 {
+public class KakaoPay2 extends Payment2 {
 
-    public KakaoPayProcessor2() {
+    public KakaoPay2() {
         super("카카오페이");
     }
 
