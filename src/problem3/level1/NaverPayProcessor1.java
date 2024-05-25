@@ -17,9 +17,8 @@ public class NaverPayProcessor1 {
      * @param paymentAmount 결제 금액
      */
     public void pay(int paymentAmount) {
-        // 지금은 단순 문자열을 출력하지만 복잡한 결제 로직이 있다고 가정합시다.
         System.out.printf("네이버페이로 %,d원을 결제합니다.\n", paymentAmount);
-        updatePaymentMetadata(paymentAmount);
+        updatePaymentInfo(paymentAmount);
     }
 
     /**
@@ -34,7 +33,7 @@ public class NaverPayProcessor1 {
      *
      * @param paymentAmount 결제 금액
      */
-    private void updatePaymentMetadata(int paymentAmount) {
+    private void updatePaymentInfo(int paymentAmount) {
         this.paymentAmount = paymentAmount;
         // 아래 코드는 현재 시스템(컴퓨터)의 날짜와 시간을 가져와 문자열로 변환해 저장하는 역할을 한다는 것만 아시면 됩니다.
         this.paymentDate = LocalDateTime.now()

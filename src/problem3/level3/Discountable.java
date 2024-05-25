@@ -11,4 +11,5 @@ public interface Discountable {
      * @return 할인된 결제 금액
      */
     int discount(int originalAmount);
+
 }

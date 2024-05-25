@@ -22,7 +22,7 @@ public abstract class PaymentProcessor3 {
         System.out.printf("\n[%s] %s - %,d원\n", paymentDate, paymentMethod, paymentAmount);
     }
 
-    protected final void updatePaymentMetadata(int paymentAmount) {
+    protected final void updatePaymentInfo(int paymentAmount) {
         this.paymentAmount = paymentAmount;
         this.paymentDate = LocalDateTime.now()
                 .format(DateTimeFormatter.ISO_DATE_TIME);

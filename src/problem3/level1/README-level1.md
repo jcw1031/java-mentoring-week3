@@ -17,7 +17,7 @@
 
 - `void pay(int paymentAmount)`: 결제 진행
 - `void printReceipt()`: 결제 영수증 출력
-- `void updatePaymentMetadata(int paymentAmount)`: 결제 정보 업데이트 (결제 금액과 결제 시간을 갱신)
+- `void updatePaymentInfo(int paymentAmount)`: 결제 정보 업데이트 (결제 금액과 결제 시간을 갱신)
 
 ### 직접 구현해 봅시다!
 

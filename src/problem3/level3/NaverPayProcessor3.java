@@ -9,7 +9,7 @@ public class NaverPayProcessor3 extends PaymentProcessor3 implements Discountabl
     @Override
     public void pay(int paymentAmount) {
         System.out.printf("네이버페이로 %,d원을 결제합니다.\n", paymentAmount);
-        updatePaymentMetadata(paymentAmount);
+        updatePaymentInfo(paymentAmount);
     }
 
     @Override
@@ -19,4 +19,5 @@ public class NaverPayProcessor3 extends PaymentProcessor3 implements Discountabl
         System.out.printf("할인된 결제 금액은 %,d원입니다.\n", discountedPaymentAmount);
         return discountedPaymentAmount;
     }
+
 }

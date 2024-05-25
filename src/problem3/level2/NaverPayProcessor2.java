@@ -9,7 +9,7 @@ public class NaverPayProcessor2 extends PaymentProcessor2 {
     @Override
     public void pay(int paymentAmount) {
         System.out.printf("네이버페이로 %,d원을 결제합니다.\n", paymentAmount);
-        updatePaymentMetadata(paymentAmount);
+        updatePaymentInfo(paymentAmount);
     }
 
 }
