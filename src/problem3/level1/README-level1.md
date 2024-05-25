@@ -4,6 +4,7 @@
 각 클래스의 멤버 변수(필드)와 메서드를 살펴보고 어떤 기능이 있는지 확인해 보세요. **(많은 코드가 중복된다는 것도 확인해 보세요!)**
 
 ### 구조
+
 ![level1-classes.png](../resources/level1-classes.png)
 
 ### 결제 처리 클래스들 (`CreditCard`, `KakaoPay`, `NaverPay`)

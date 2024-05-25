@@ -7,6 +7,7 @@ LEVEL1에서 각 결제 처리 클래스들에 많은 코드 중복이 존재할
 덤으로 LEVEL1에서의 결제 처리 클래스들에 비해 LEVEL2에서의 결제 처리 클래스들의 코드가 얼마나 간결해졌는지도 확인해 보세요.
 
 ### 구조
+
 ![level2-classes.png](../resources/level2-classes.png)
 
 ### `Payment` 추상 클래스
