@@ -6,13 +6,13 @@ import java.time.format.DateTimeFormatter;
 /**
  * 결제 처리 추상 클래스
  */
-public abstract class PaymentProcessor {
+public abstract class PaymentProcessor3 {
 
     private String paymentDate;
     private String paymentMethod;
     private int paymentAmount;
 
-    protected PaymentProcessor(String paymentMethod) {
+    protected PaymentProcessor3(String paymentMethod) {
         this.paymentMethod = paymentMethod;
     }
 

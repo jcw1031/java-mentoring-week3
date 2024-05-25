@@ -3,12 +3,16 @@ package problem3.level1;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * 카카오페이 결제 처리 클래스
+ */
 public class KakaoPayProcessor1 {
 
     private String paymentDate;
     private int paymentAmount;
 
     public void pay(int paymentAmount) {
+        // 지금은 단순 문자열을 출력하지만 복잡한 결제 로직이 있다고 가정합시다.
         System.out.printf("카카오페이로 %,d원을 결제합니다.\n", paymentAmount);
         updatePaymentMetadata(paymentAmount);
     }

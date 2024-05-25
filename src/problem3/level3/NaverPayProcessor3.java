@@ -1,8 +1,8 @@
 package problem3.level3;
 
-public class NaverPayProcessor extends PaymentProcessor implements Discountable {
+public class NaverPayProcessor3 extends PaymentProcessor3 implements Discountable {
 
-    public NaverPayProcessor() {
+    public NaverPayProcessor3() {
         super("네이버페이");
     }
 
