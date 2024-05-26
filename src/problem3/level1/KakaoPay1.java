@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * 카카오페이 결제 처리 클래스
  */
-public class KakaoPay1 {
+class KakaoPay1 {
 
     private String paymentDate;
     private int paymentAmount;

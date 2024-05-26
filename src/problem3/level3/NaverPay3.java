@@ -1,6 +1,6 @@
 package problem3.level3;
 
-public class NaverPay3 extends Payment3 implements Discountable {
+class NaverPay3 extends Payment3 implements Discountable {
 
     public NaverPay3() {
         super("네이버페이");

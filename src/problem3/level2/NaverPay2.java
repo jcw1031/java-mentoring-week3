@@ -1,6 +1,6 @@
 package problem3.level2;
 
-public class NaverPay2 extends Payment2 {
+class NaverPay2 extends Payment2 {
 
     public NaverPay2() {
         super("네이버페이");

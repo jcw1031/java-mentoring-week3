@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * 신용카드 결제 처리 클래스
  */
-public class CreditCard1 {
+class CreditCard1 {
 
     private String paymentDate;
     private int paymentAmount;

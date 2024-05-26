@@ -1,6 +1,6 @@
 package problem3.level3;
 
-public class CreditCard3 extends Payment3 {
+class CreditCard3 extends Payment3 {
 
     public CreditCard3() {
         super("신용카드");

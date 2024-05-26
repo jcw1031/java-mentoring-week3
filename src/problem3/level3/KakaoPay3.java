@@ -1,6 +1,6 @@
 package problem3.level3;
 
-public class KakaoPay3 extends Payment3 implements Discountable {
+class KakaoPay3 extends Payment3 implements Discountable {
 
     public KakaoPay3() {
         super("카카오페이");

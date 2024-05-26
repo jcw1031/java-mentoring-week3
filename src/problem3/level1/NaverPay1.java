@@ -6,7 +6,7 @@ import java.time.format.DateTimeFormatter;
 /**
  * 네이버페이 결제 처리 클래스
  */
-public class NaverPay1 {
+class NaverPay1 {
 
     private String paymentDate;
     private int paymentAmount;
